@@ -581,7 +581,7 @@ body {
 .portfolio-title {
     width: 100%;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 50px;
     margin-top: 5px;
 }
@@ -713,56 +713,49 @@ body {
     }
 }
 
-.contact-tel, .contact-email {
+.contact-tel, .contact-email, .contact-linkedin {
     margin: 0 35px 0 35px;
     padding: 0 15px 0 15px;
     margin-bottom: 40px;
 }
 
-.email-img, .tel-img {
+.email-img, .tel-img, .linkedin-img {
     cursor: pointer;
     width: 20%;
     margin-bottom: 20px;
     transition: 0.2s;
 }
 
-.copyright {
-    margin-bottom: 48px;
-    color: #6c757d;
-    text-align: center;
-    font-size: 80%;
+.contact-tel img:hover, .contact-email img:hover, .contact-linkedin img:hover {
+    width: 25%;
 }
 
-.contact-tel img:hover, .contact-email img:hover {
-    width: 37%;
-}
-
-.telephone, .email {
+.telephone, .email, .linkedin {
     cursor: pointer;
     text-decoration: none;
     color: hsl(0, 0%, 25%);
     font-size: 15px;
 }
 
-
-
-.telephone:hover, .email:hover {
+.telephone:hover, .email:hover, .linkedin:hover {
     color: rgba(23, 162, 184);
     text-decoration: underline;
 }
 
 
 .footer-div {
-    display: flex;
-    flex-direction: column;
-    padding: 48px 48px 48px 48px;
-    height: 100%;
-    background-color: rgb(240, 240, 240);
+    padding-top: 48px;
+}
+
+.footer-container {
+    margin: 0 0 0 0;
+    height: 15px;
 }
 
 .copyright {
-    color: #6c757d;
-    justify-content: flex-end;
+    color: #596066;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 80%;
+    font-size: 90%;
 }
