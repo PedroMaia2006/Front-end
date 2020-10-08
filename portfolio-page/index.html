@@ -12,7 +12,7 @@
     <!--Navegation-->
     <header id="navbar">
         <nav class="navbar-container container">
-            <a href="#page-top" class="home-link">Pedro Maia</a>
+            <a href="javascript: scrollPageTop()" class="home-link">Pedro Maia</a>
             <button type="button" class="navbar-toggle" aria-label="Open navigation menu">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -20,10 +20,10 @@
             </button>
             <div class="navbar-menu detached">
                 <ul class="navbar-links">
-                    <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
-                    <li class="navbar-item"><a class="navbar-link" href="#services">Services</a></li>
-                    <li class="navbar-item"><a class="navbar-link" href="#portfolio">Portfolio</a></li>
-                    <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="javascript: scrollAbout()">About</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="javascript: scrollServices()">Services</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="javascript: scrollPortfolio()">Portfolio</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="javascript: scrollContact()">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -34,7 +34,7 @@
             <h1 class="welcome-text">Hello, I am Pedro.<br>Welcome to my Portfolio!</h1>
             <p class='text-about'>Recently specialized in Data Science and increasingly looking for new tools and
                 projects to expand my range of skills.</p>
-            <a class='findMore' href="#about ">More About Me</a>
+            <a class='findMore' href="javascript: scrollAbout()">More About Me</a>
         </div>
     </div>
     <!--About me-->
@@ -356,6 +356,7 @@
     </section>
     <!--JS-->
     <script src="./js/scripts.js"></script>
+    <script src="js/scroll.js"></script>
 </body>
 
 </html>
