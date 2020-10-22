@@ -1,8 +1,7 @@
 const pageTop = document.getElementById('page-top')
-const about = document.getElementById('about');
+const pag1 = document.getElementById('pag-1')
 const services = document.getElementById('services')
-const portfolio = document.getElementById('portfolio')
-const contact = document.getElementById('contact')
+const video = document.querySelector('.video-section')
 
 function scrollPageTop() {
     pageTop.scrollIntoView({
@@ -10,8 +9,8 @@ function scrollPageTop() {
     })
 }
 
-function scrollAbout() {
-    about.scrollIntoView({
+function scrollPag1() {
+    pag1.scrollIntoView({
         behavior: "smooth"
     })
 }
@@ -22,14 +21,8 @@ function scrollServices() {
     })
 }
 
-function scrollPortfolio() {
-    portfolio.scrollIntoView({
-        behavior: "smooth"
-    })
-}
-
-function scrollContact() {
-    contact.scrollIntoView({
+function scrollVideo() {
+    video.scrollIntoView({
         behavior: "smooth"
     })
 }
